@@ -1,0 +1,56 @@
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: 300;
+	border-bottom:  3px solid black;
+}
+* {
+	background: #B82127;
+}
+h1 {
+	font-size: 5em;
+	margin: 10px;
+	color: #E8FAE6;
+	font-family: "Helvetica";
+
+}
+h3{
+
+	font-size: 2em;
+}
+
+.container{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 20px 10px 0px;
+
+	border-top: 3px solid black;
+
+	align-items: flex-end;
+
+}
+
+
+
+.container div{
+	text-align: left;
+	padding:20px;
+	margin: 0px;
+	flex: 0 1 10em;
+	justify-content: flex-start 
+
+}
+.container h3{
+
+
+	margin: 0px 5px 0px;
+	flex: 0 1 10em;
+	width: 300px;
+
+}
+
+.boxen {
+	padding: 30px;
+	display: flex;
+	flex-direction: column;
+}
